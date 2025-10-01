@@ -1,0 +1,42 @@
+{
+  "id": "76a40b79-90ec-4fa1-a38e-bc6408b1469c",
+  "version": "2.0",
+  "name": "lemontree",
+  "url": "https://www.gingerhotels.com/hotels/ginger-bangalore-irr/rooms-and-suites/booking",
+  "tests": [{
+    "id": "bb0251a9-f5d1-4e38-b37d-932b3756326c",
+    "name": "ginger",
+    "commands": [{
+      "id": "04347a4f-c94b-4a4c-8026-b2a677a7784d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gingerhotels.com/hotels/ginger-bangalore-irr/rooms-and-suites/booking",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1660765-ff85-4fb0-87e6-19ac022cdd43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1400x842",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb777f80-7153-465f-a5c9-88b804d55628",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,176)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "47c94cb5-8069-40fe-9ade-990c9e020dd0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://lemontreebengaluru.reserve.pegsbe.com/"],
+  "plugins": []
+}

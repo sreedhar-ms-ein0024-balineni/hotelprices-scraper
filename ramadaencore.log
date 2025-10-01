@@ -1,0 +1,30 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:87: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (4.0.0) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "/opt/price-scraper/ramadaencore.py", line 109, in <module>
+    main()
+  File "/opt/price-scraper/ramadaencore.py", line 100, in main
+    write_price_to_csv(extract_number(standardRate), "standard")
+  File "/opt/price-scraper/ramadaencore.py", line 59, in write_price_to_csv
+    with open(filename, mode="a", newline="") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prices/ramada_encore_hotel_prices.csv'
+/usr/lib/python3/dist-packages/requests/__init__.py:87: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (4.0.0) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "/opt/price-scraper/ramadaencore.py", line 109, in <module>
+    main()
+  File "/opt/price-scraper/ramadaencore.py", line 100, in main
+    write_price_to_csv(extract_number(standardRate), "standard")
+  File "/opt/price-scraper/ramadaencore.py", line 59, in write_price_to_csv
+    with open(filename, mode="a", newline="") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prices/ramada_encore_hotel_prices.csv'
+/usr/lib/python3/dist-packages/requests/__init__.py:87: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (4.0.0) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "/opt/price-scraper/ramadaencore.py", line 109, in <module>
+    main()
+  File "/opt/price-scraper/ramadaencore.py", line 100, in main
+    write_price_to_csv(extract_number(standardRate), "standard")
+  File "/opt/price-scraper/ramadaencore.py", line 59, in write_price_to_csv
+    with open(filename, mode="a", newline="") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'prices/ramada_encore_hotel_prices.csv'
