@@ -41,7 +41,7 @@ def find_by(target):
         return (By.CSS_SELECTOR, target)
 
 
-def write_price_to_csv(hotel_price, rate_type,filename="/opt/price-scraper/prices/ramada_encore_hotel_prices.csv"):
+def write_price_to_csv(hotel_price, rate_type,filename="/opt/hotelprices-scraper/prices/ramada_encore_hotel_prices.csv"):
     # checkin = today, checkout = tomorrow
     hotel_price = hotel_price if hotel_price != "" else "NA"
     today = datetime.now().date()
